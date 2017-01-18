@@ -1,0 +1,8 @@
+
+## Ignore specific files
+*.csv
+*.tsv
+*.tar.gz
+*.zip
+*.7z
+*.bz2
