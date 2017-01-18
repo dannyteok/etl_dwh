@@ -1,0 +1,13 @@
+##
+## Author:      Danny Teok
+## Create Date: 2 December 2016
+## Description: Contains common reference objects, artefacts, functions used
+##              throughout ETL data processing
+##
+
+
+PWDFILE=/home/dteok/etl_dwh/dataload/xxx/xxx.dat
+
+FTPHOF_HOST=`grep -i ftp_hof_host ${PWDFILE} | awk 'BEGIN {FS="~"} {print $2}'`
+FTPHOF_USR=`grep -i ftp_hof_usr ${PWDFILE} | awk 'BEGIN {FS="~"} {print $2}'`
+FTPHOF_PWD=`grep -i ftp_hof_pwd ${PWDFILE} | awk 'BEGIN {FS="~"} {print $2}'`
