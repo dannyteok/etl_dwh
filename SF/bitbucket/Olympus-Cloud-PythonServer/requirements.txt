@@ -1,0 +1,3 @@
+-e git+git@bitbucket.org:smartfocus1/smartfocus-olympus-cloud-pythonserver.git@8890d04afcf064072bd7bc26107a71f2fb9017a6#egg=smartfocus_olympus_cloud_pythonserver
+-e git+git@bitbucket.org:smartfocus1/smartfocus-olympus-rnd-dataprocessing.git@2480e4ee7a462df51bae23df6554d0a0c80f4332#egg=SmartFocus_Olympus_RnD_DataProcessing
+-e git+git@bitbucket.org:smartfocus1/smartfocus-olympus-rnd-som.git@2f425f481cb6f3e486e4eb33349cb557d08ad7c2#egg=SmartFocus_Olympus_RnD_SOM

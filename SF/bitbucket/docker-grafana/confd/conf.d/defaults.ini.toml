@@ -1,0 +1,13 @@
+[template]
+src = "defaults.ini.tmpl"
+dest = "/grafana/bin/conf/defaults.ini"
+keys = [
+    "/infrastructure/grafana/password",
+    "/infrastructure/grafana/user",
+    "/infrastructure/grafana/url",
+    "/infrastructure/grafana/dashboards/enabled",
+    "/infrastructure/grafana/dashboards/path",
+    "/infrastructure/grafana/data",
+    "/infrastructure/grafana/logs",
+    "/infrastructure/grafana/plugins",
+]
